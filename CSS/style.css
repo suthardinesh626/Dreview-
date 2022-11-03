@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Zen+Antique+Soft&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: gold;
+    /* border: solid 6px yellowgreen ; */
+}
+.logo{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+span{
+    display: flex;
+    align-items: center;
+    align-content:center;
+    justify-content: center;
+    height: 3px 0px;
+}
+img{
+    height: 50px;
+    padding: 0 5px;
+   
+}
+nav ul li{
+    height: 25px;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: rebeccapurple; */
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    /* background-color: aqua; */
+}
+nav ul li :hover{
+    font-weight: bolder;
+}
+.container1{
+   margin: 0;
+   padding: 0;
+    overflow :scroll ;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    background-color:rgb(251, 255, 196);
+}
+.container2{
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color:rgb(251, 255, 196);
+}
+.trending{
+    background-color:rgb(251, 255, 196);
+    display:flexbox ;
+    margin: 0px ;
+    padding: 5px;
+}
+
+/* This are properties of images */
+.box1 img{
+    /* DUNE */
+    margin: 10px; 
+    height: 350px;
+    width: 250px;
+}
+.box2 img{ 
+    /* No Time To Die */
+    margin: 10px;
+    height: 350px;
+    width: 250px;
+}
+.box3 img{    
+    /* Sooryavnshi */              
+    margin: 10px;
+    height: 350px;
+    width: 255px;
+}
+.box4 img{
+    /* Eternals */
+    margin: 10px;
+    height: 350px;
+    width: 250px;
+}
+.box5 img{
+    /* Eternals */
+    margin: 10px;
+    height: 350px;
+    width: 250px;
+}
+.box6 img{
+    /* Eternals */
+    margin: 10px;
+    height: 350px;
+    width: 250px;
+}
+/* This is the properties of only box containing Image */
+.box1{
+    /* background-color:aquamarine; */
+    height: 410px;
+    margin: 10px;
+    padding: 10px;; 
+}
+.box2{
+    /* background-color:aquamarine; */
+    height: 410px;
+    margin: 10px;
+    padding: 10px;;
+}
+.box3{
+    /* background-color:aquamarine; */
+    height: 410px;
+    margin: 10px;
+    padding: 10px;;
+}
+.box4{
+    /* background-color:aquamarine; */
+    height: 410px;
+    margin: 10px;
+    padding: 10px;;
+}
+.box5{
+    /* background-color:aquamarine; */
+    height: 410px;
+    margin: 10px;
+    padding: 10px;;
+}
+.box6{
+    /* background-color:aquamarine; */
+    height: 410px;
+    margin: 10px;
+    padding: 10px;;
+}
+/* This propperties for hover on image  */
+.box1 :hover{
+    transform: scale(1.05);
+}
+.box2 :hover{
+    transform: scale(1.05);
+}
+.box3 :hover{
+    transform: scale(1.05);
+}
+.box4 :hover{
+    transform: scale(1.05);
+}
+.box5 :hover{
+    transform: scale(1.05);
+}
+.box6 :hover{
+    transform: scale(1.05);
+}
+p{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+/* INTERVIEW */
+.interview{
+    background-color:rgb(251, 255, 196);
+    font-family: 'Rubik', sans-serif;
+        padding: 1px 50px;
+}
+.h2Container{
+    /* Heading Of inteview */
+    background-color:rgb(251, 255, 196);
+    margin: 10px 0px;
+    padding: 10px 50px;
+}
+
+.container2{
+    background-color:rgb(251, 255, 196);
+    /* overflow: scroll; */
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    height: 450px;
+}
+.imgconatiner2{
+    /* Container Img and Short Discription */
+    height: 400px;
+    width: 470px;
+    margin: 10px;
+}
+.imgconatiner2 img{
+    /* IMG  */
+    height: 300px;
+    width: 480px;
+    margin: 0px;
+}
+
+.imgcontainer_p{
+    /* IMG discription  */
+    color: black;
+    display:contents;
+    font-family: 'Rubik', sans-serif;
+}
+.imgconatiner2:hover {
+    transform: scale(1.02);
+}
+.latest{
+    margin: 0px;
+    padding: 15px;
+    height:25px;
+    background-color: red;
+}
+h3{
+    font-size:medium;
+    color: aliceblue;
+}
+.coantiner3{
+    display: flex;
+    align-items: flex-start;
+    align-content: ;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+.container3_p{
+    background-color: white;
+    height: 60px;
+}
+  
+footer{
+    background-color: gold;
+    color: black;
+    margin: 0px;
+    padding: 20px;
+    height: 200px;
+}
+.discription{
+    /* height: 300px; */
+    width: 400px;
+    font-size:small;
+    font-family: 'Rubik', sans-serif;
+}
